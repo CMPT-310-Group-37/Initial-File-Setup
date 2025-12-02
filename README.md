@@ -13,16 +13,22 @@ Requirments include:
  - Python chess, chess.pgn, chess.engine 
  - Stockfish Chess Engine
 
+## List of Folders
+
+- **Model**: 
+  - File including one the basic trained models and it's mode encodings
+  - Included to run the visualization through Interface.ipynb 
+
 ## List of Files, their purpose and how to run them 
 
 ### Data Processing 
 - **CsvToPpg.py**: 
   - Purpose: Python using pandas and chess.pgn to convert CSV to PGN 
   - How to run: The input and output files are hard coded "python3 csv_to_pgn.py"
-- **pgn_to_csv.py**: 
+- **PgnToCsv.py**: 
   - Purpose: Python using pandas and chess.pgn to convert PGN to CSV 
   - How to run: The input and output files are hard coded "python3 pgn_to_csv.py"
-- **simulate.ipynb**: 
+- **Simulate.ipynb**: 
   - Purpose: jupyter notebook playing stockfish against itself and collecting data for training
   - How to run: Run the indiviual cells 
 - **FilteringGamesPgnExample.py**: 
